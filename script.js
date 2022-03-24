@@ -9,8 +9,10 @@ const car = {
     color: 'Black',
     'max speed': 400
 }
-
 car.model = 'toyota';
-
-
 console.log('Name of our car is ' + car['max speed']);
+
+let arr = ['Laal', 'Neel', 'Holud']
+arr[10] = 4;
+
+console.log(arr.length);
