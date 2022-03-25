@@ -16,3 +16,9 @@ let arr = ['Laal', 'Neel', 'Holud']
 arr[10] = 4;
 
 console.log(arr.length);
+
+function printName(fname, lname) {
+    console.log('Hi ' + fname + ' ' + lname);
+}
+
+printName('Kridita', 'Ray');
